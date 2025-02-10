@@ -1,2 +1,1 @@
-web: gunicorn botrun:app
-worker: python botrun.py
+worker: python main.py

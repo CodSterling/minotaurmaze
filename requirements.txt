@@ -2,4 +2,5 @@ discord.py
 ffmpeg
 asyncio
 python-dotenv
+PyNaCl
 

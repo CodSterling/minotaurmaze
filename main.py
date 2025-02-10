@@ -11,7 +11,7 @@ TOKEN = os.getenv('TOKEN')
 ESCAPE_CHANNEL_ID = int(os.getenv('ESCAPE_CHANNEL_ID'))
 AUDIO_PATH = os.getenv('AUDIO_PATH', './audio/')  # Default to local folder if not set
 IMG_PATH = os.getenv('IMG_PATH', './img/')  # Default to local folder if not set
-FFMPEG_PATH = os.getenv('FFMPEG_PATH', '/app/bin/ffmpeg')  # Default for Heroku buildpack
+FFMPEG_PATH = os.getenv('FFMPEG_PATH', '/app/vendor/ffmpeg/ffmpeg')  # Corrected for Heroku
 
 intents = discord.Intents.default()
 intents.guilds = True
